@@ -103,6 +103,29 @@ if(formulario){
 
 }
 
+const botonModoOscuro =
+document.getElementById("modoOscuro");
+
+if (localStorage.getItem("modo") === "oscuro") {
+    document.body.classList.add("dark");
+}
+
+if (botonModoOscuro) {
+
+    botonModoOscuro.addEventListener("click", () => {
+
+        document.body.classList.toggle("dark");
+
+        if (document.body.classList.contains("dark")) {
+            localStorage.setItem("modo", "oscuro");
+        } else {
+            localStorage.setItem("modo", "claro");
+        }
+
+    });
+
+}
+
 
 // TEMPORIZADOR
 

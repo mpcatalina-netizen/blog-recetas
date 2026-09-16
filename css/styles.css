@@ -206,6 +206,56 @@ footer {
     font-weight: bold;
     color: #2e7d32;
 }
+.dark{
+    background:#1F1F1F;
+    color:white;
+}
+
+.dark header{
+    background:#1F1F1F;
+}
+
+.dark .hero,
+.dark .presentacion,
+.dark .busqueda,
+.dark .contacto,
+.dark .receta-detalle{
+    background:#1F1F1F;
+}
+
+.dark h1,
+.dark h2,
+.dark h3{
+    color:#D7A86E;
+}
+
+.dark p,
+.dark li,
+.dark strong{
+    color:white;
+}
+
+.dark .card{
+    background:#2E2E2E;
+    color:white;
+}
+
+.dark .info-receta{
+    background:#2E2E2E;
+}
+
+.dark nav a{
+    color:white;
+}
+
+.dark nav a:hover{
+    color:#D7A86E;
+}
+
+.dark footer{
+    background:#111111;
+    color:white;
+}
 
 @media(max-width:768px) {
     .recetas {
