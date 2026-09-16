@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E6D5C3;
+    color: #5C3A21;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.7;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #E6D5C3;
+}
+
+h1 {
+    color: #8B5E3C;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5C3A21;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8B5E3C;
+}
+
+#modoOscuro {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #355C7D;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero,
+.presentacion,
+.busqueda {
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    color: #8B5E3C;
+    margin-bottom: 15px;
+}
+
+.presentacion p {
+    max-width: 800px;
+    margin: auto;
+}
+
+.recetas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 320px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #8B5E3C;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card a {
+    display: inline-block;
+    background: #5C3A21;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background: #3E2717;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #8B5E3C;
+    color: white;
+    margin-top: 40px;
+}
+
+.imagen-hero {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+@media(max-width:768px) {
+    .recetas {
+        flex-direction: column;
+        align-items: center;
+    }
+}
