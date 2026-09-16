@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - Sabores Caseros</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🍰 Sabores Caseros</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="receta1.html">Tarta de queso</a></li>
+                <li><a href="receta2.html">Risotto de setas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contacto">
+
+        <h2>Contacto</h2>
+
+        <p>
+            Si quieres compartir una receta o hacer una sugerencia,
+            puedes enviarme un mensaje.
+        </p>
+
+        <form id="formularioContacto">
+
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Nombre"
+                required>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Correo electrónico"
+                required>
+
+            <textarea
+                id="mensaje"
+                placeholder="Escribe tu mensaje"
+                rows="6"
+                required></textarea>
+
+            <button type="submit">
+                Enviar mensaje
+            </button>
+
+        </form>
+
+        <p id="respuesta"></p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Carolina Montes Pérez | Sabores Caseros</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

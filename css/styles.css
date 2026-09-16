@@ -46,7 +46,7 @@ nav a:hover {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
-    background: #355C7D;
+    background: #5C3A21;
     color: white;
     border-radius: 8px;
     cursor: pointer;
@@ -126,6 +126,85 @@ footer {
     height: auto;
     display: block;
     margin: 20px auto;
+}
+
+.imagen-tarta-de-queso {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.receta-detalle {
+    text-align: center;
+    padding: 40px;
+}
+
+.receta-detalle img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.info-receta {
+    margin: 20px auto;
+}
+
+#ingredientes {
+    margin: 20px auto;
+}
+
+#ingredientes ul,
+.receta-detalle ol {
+    display: inline-block;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.receta-detalle button {
+    display: block;
+    margin: 20px auto;
+}
+
+.contacto {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contacto button {
+    background: #5C3A21;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background: #3E2717;
+}
+
+#respuesta {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2e7d32;
 }
 
 @media(max-width:768px) {
